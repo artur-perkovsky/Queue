@@ -12,6 +12,7 @@ public class Queue {
         putLoc = 0;
         getLoc = 0;
         array = new char[sizeArray];
+        
     }
 
     //Метод записи в очередь
