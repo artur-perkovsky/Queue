@@ -12,7 +12,7 @@ public class QueueDemo {
         }
 
         //Чтение очереди
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 3; i++) {
             ch = q1.get();
             if (ch != ' '){
                 System.out.print(ch + " ");
@@ -27,6 +27,13 @@ public class QueueDemo {
 
         System.out.println();
 
+        for (int i = 0; i < 8; i++) {
+            ch = q1.get();
+            if (ch != ' '){
+                System.out.print(ch + " ");
+            }
+            else break;
+        }
 
 
     }
